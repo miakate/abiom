@@ -1,0 +1,88 @@
+{
+  "banks": [
+    {
+      "id": 0,
+      "title": "Բիբլոս Բանկ Արմենիա ՓԲԸ",
+      "general_address": {
+        "name": "18, 3 Amiryan St, Yerevan 0002",
+        "branch_type": "bank",
+        "lat": "",
+        "lng": ""
+      },
+      "open_hours": "9:30AM- 6PM",
+      "phone_number": "060 616100",
+      "web_link": "https://www.byblosbankarmenia.am/en",
+      "bank―branches": [
+        {
+          "id": 0,
+          "branch_type": "bank",
+          "address_name": "Amiryan  18/3 , Yerevan",
+          "lat": "",
+          "lng": ""
+        },
+        {
+          "id": 1,
+          "branch_type": "bank",
+          "address_name": "Abovyan 6, Yerevan",
+          "lat": "",
+          "lng": ""
+        },
+        {
+          "id": 2,
+          "branch_type": "bank",
+          "address_name": "Komitas 38/2, Yerevan",
+          "lat": "",
+          "lng": ""
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "title": "HSBC Bank Armenia",
+      "general_address": {
+        "name": "9 Vazgen Sargsyan St, Yerevan 0010",
+        "lat": "",
+        "lng": ""
+      },
+      "open_hours": "9:30AM- 6PM",
+      "phone_number": "060 655000",
+      "web_link": "https://www.hsbc.am/en-am",
+      "bank―branches": [
+        {
+          "id": 0,
+          "branch_type": "atm",
+          "address_name": "3 Komitas Ave",
+          "lat": "",
+          "lng": ""
+        },
+        {
+          "id": 1,
+          "branch_type": "bank",
+          "address_name": "4/1 Marshal Baghramyan Ave, Yerevan 0019",
+          "lat": "",
+          "lng": ""
+        },
+        {
+          "id": 2,
+          "branch_type": "bank",
+          "address_name": "3 Tsitsernakaberd Hwy, Yerevan 0082",
+          "lat": "",
+          "lng": ""
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Central Bank",
+      "general_address": {
+        "branch_type": "bank",
+        "name": "6 Vazgen Sargsyan St, Yerevan 0010",
+        "lat": "",
+        "lng": ""
+      },
+      "open_hours": "9:30AM- 6PM",
+      "phone_number": "060 616100",
+      "web_link": ""
+    }
+  ]
+}

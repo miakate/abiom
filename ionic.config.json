@@ -1,0 +1,7 @@
+{
+  "name": "abiom",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}
