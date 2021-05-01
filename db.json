@@ -2,7 +2,9 @@
   "banks": [
     {
       "id": 0,
-      "title": "Բիբլոս Բանկ Արմենիա ՓԲԸ",
+      "title": "Ամերիա Բանկ",
+      "logoUrl": "/assets/banks/ameria_logo.jpeg",
+      "coverUrl": "/assets/banks/cover/ameria-cover.png",
       "general_address": {
         "name": "18, 3 Amiryan St, Yerevan 0002",
         "branch_type": "bank",
@@ -11,8 +13,8 @@
       },
       "open_hours": "9:30AM- 6PM",
       "phone_number": "060 616100",
-      "web_link": "https://www.byblosbankarmenia.am/en",
-      "bank―branches": [
+      "web_link": "http://www.ameriabank.am",
+      "bank_branches": [
         {
           "id": 0,
           "branch_type": "bank",
@@ -39,6 +41,7 @@
     {
       "id": 1,
       "title": "HSBC Bank Armenia",
+      "logoUrl": "/assets/banks/hsbc-logo.jpeg",
       "general_address": {
         "name": "9 Vazgen Sargsyan St, Yerevan 0010",
         "lat": "",
@@ -74,6 +77,133 @@
     {
       "id": 2,
       "title": "Central Bank",
+      "logoUrl": "/assets/banks/ineco_logo.jpeg",
+      "general_address": {
+        "branch_type": "bank",
+        "name": "6 Vazgen Sargsyan St, Yerevan 0010",
+        "lat": "",
+        "lng": ""
+      },
+      "open_hours": "9:30AM- 6PM",
+      "phone_number": "060 616100",
+      "web_link": ""
+    },
+    {
+      "id": 3,
+      "title": "Central Bank",
+      "logoUrl": "/assets/banks/central_logo.jpeg",
+      "general_address": {
+        "branch_type": "bank",
+        "name": "6 Vazgen Sargsyan St, Yerevan 0010",
+        "lat": "",
+        "lng": ""
+      },
+      "open_hours": "9:30AM- 6PM",
+      "phone_number": "060 616100",
+      "web_link": ""
+    },
+    {
+      "id": 4,
+      "title": "Ardshinbank",
+      "logoUrl": "/assets/banks/ardshin-logo.jpeg",
+      "general_address": {
+        "branch_type": "bank",
+        "name": "6 Vazgen Sargsyan St, Yerevan 0010",
+        "lat": "",
+        "lng": ""
+      },
+      "open_hours": "9:30AM- 6PM",
+      "phone_number": "060 616100",
+      "web_link": ""
+    },
+    {
+      "id": 5,
+      "title": "Evoca Bank",
+      "logoUrl": "/assets/banks/evoca_logo.jpeg",
+      "general_address": {
+        "branch_type": "bank",
+        "name": "6 Vazgen Sargsyan St, Yerevan 0010",
+        "lat": "",
+        "lng": ""
+      },
+      "open_hours": "9:30AM- 6PM",
+      "phone_number": "060 616100",
+      "web_link": ""
+    },
+    {
+      "id": 6,
+      "title": "ACBA Bank",
+      "logoUrl": "/assets/banks/acba_logo.png",
+      "general_address": {
+        "branch_type": "bank",
+        "name": "6 Vazgen Sargsyan St, Yerevan 0010",
+        "lat": "",
+        "lng": ""
+      },
+      "open_hours": "9:30AM- 6PM",
+      "phone_number": "060 616100",
+      "web_link": ""
+    },
+    {
+      "id": 7,
+      "title": "Mellat Bank",
+      "logoUrl": "/assets/banks/mellat-logo.jpeg",
+      "general_address": {
+        "branch_type": "bank",
+        "name": "6 Vazgen Sargsyan St, Yerevan 0010",
+        "lat": "",
+        "lng": ""
+      },
+      "open_hours": "9:30AM- 6PM",
+      "phone_number": "060 616100",
+      "web_link": ""
+    },
+    {
+      "id": 8,
+      "title": "Biblios Bank",
+      "logoUrl": "/assets/banks/biblios_logo.jpeg",
+      "general_address": {
+        "branch_type": "bank",
+        "name": "6 Vazgen Sargsyan St, Yerevan 0010",
+        "lat": "",
+        "lng": ""
+      },
+      "open_hours": "9:30AM- 6PM",
+      "phone_number": "060 616100",
+      "web_link": ""
+    },
+    {
+      "id": 9,
+      "title": "HSBc Bank",
+      "logoUrl": "/assets/banks/idbank-logo.jpeg",
+      "general_address": {
+        "branch_type": "bank",
+        "name": "6 Vazgen Sargsyan St, Yerevan 0010",
+        "lat": "",
+        "lng": ""
+      },
+      "open_hours": "9:30AM- 6PM",
+      "phone_number": "060 616100",
+      "web_link": ""
+    },
+    {
+      "id": 10,
+      "title": "Armeconom Bank",
+      "logoUrl": "/assets/banks/armeconom_logo.jpeg",
+      "general_address": {
+        "branch_type": "bank",
+        "name": "6 Vazgen Sargsyan St, Yerevan 0010",
+        "lat": "",
+        "lng": ""
+      },
+      "open_hours": "9:30AM- 6PM",
+      "phone_number": "060 616100",
+      "web_link": ""
+    },
+    {
+      "id": 11,
+      "title": "Converse Bank",
+      "logoUrl": "/assets/banks/converse_logo.jpeg",
       "general_address": {
         "branch_type": "bank",
         "name": "6 Vazgen Sargsyan St, Yerevan 0010",

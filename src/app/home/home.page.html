@@ -6,26 +6,13 @@
 
 
 <ion-content fullscreen>
-  <ion-card>
-    <img src="https://panorama.am/news_images/651/1952741_3/f5b03de1ed4360_5b03de1ed439e.thumb.png"/>
-    <ion-card-header>
-      <ion-card-subtitle>Armenia, Yerevan</ion-card-subtitle>
-      <ion-card-title>AmeriaBank</ion-card-title>
-    </ion-card-header>
-    <ion-card-content>
-      Founded in 1829 on an isthmus between Lake Monona and Lake Mendota, Madison was named the capital of the Wisconsin
-      Territory in 1836.
-    </ion-card-content>
-  </ion-card>
-  <ion-card>
-    <img src="https://armacad.info/images/2016/11/inecobank-5yPugvm77I8ezthMQg9UL32ochpg_4ay.jpg"/>
-    <ion-card-header>
-      <ion-card-subtitle>Armenia, Yerevan</ion-card-subtitle>
-      <ion-card-title>InecoBank</ion-card-title>
-    </ion-card-header>
-    <ion-card-content>
-      Founded in 1829 on an isthmus between Lake Monona and Lake Mendota, Madison was named the capital of the Wisconsin
-      Territory in 1836.
-    </ion-card-content>
-  </ion-card>
+  <ion-grid>
+    <ion-row>
+      <ion-col *ngFor="let bank of banks; let i = index">
+        <ion-card (click)='showBank(bank)'>
+          <img [src]="bank.logoUrl" />
+        </ion-card>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
 </ion-content>
