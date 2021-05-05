@@ -1,3 +1,48 @@
-img{
-    height: 80px;
+img {
+    height: 150px;
+    width : 170px;
+}
+
+
+.card-content {
+    height: 100%;
+}
+
+span {
+    font-size     : 20px;
+    padding-left  : 10px;
+    text-transform: uppercase;
+}
+
+.showAll {
+    font-size: 15px;
+    position : absolute;
+    right    : 3%;
+    top      : 37%;
+}
+
+.card-header {
+    width        : 100%;
+    background   : var(--ion-white-color) !important;
+    height       : 45%;
+    border-radius: 0 0 20px 20px;
+    box-shadow   : 0 0 0 3px #8888887a;
+}
+
+.list-content {
+    padding: 15px;
+}
+
+ion-icon {
+    padding-top: 10px;
+    font-size  : 25px;
+    color      : green;
+}
+
+h1 {
+    color: green;
+}
+
+h4 {
+    color: green;
 }

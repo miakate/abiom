@@ -1,30 +1,47 @@
-<ion-header>
-  <ion-toolbar>
-    <ion-title>{{value.title}}</ion-title>
-  </ion-toolbar>
-</ion-header>
-
 <ion-content>
-  <ion-card>
-    <img [src]="value.coverUrl" />
-    <ion-card-header>
-      <ion-card-title>{{value.title}}</ion-card-title>
-      <ion-card-subtitle>{{value.open_hours}}</ion-card-subtitle>
-      <ion-card-subtitle>Web Url : <a [href]="value.web_link">{{value.web_link}}</a></ion-card-subtitle>
-    </ion-card-header>
+  <div class="card-content">
+    <div class="card-header">
+      <ion-buttons slot="start">
+        <ion-back-button (click)="goBack()" defaultHref="home"></ion-back-button>
+      </ion-buttons>
 
-    <ion-card-content>
-      Bank Branches
+      <ion-row>
+        <ion-col size="5">
+          <img [src]="value.coverUrl" width="100" height="100" />
+        </ion-col>
+        <ion-col>
+          <h1>{{value.title}}</h1>
+          <h3>{{value.open_hours}}</h3>
+          <h5>Web Url : <a [href]="value.web_link">{{value.web_link}}</a></h5>
+        </ion-col>
+        <div>
+          <div class="showAll">
+            <ion-button color="light" (click)="showMap(value.bank_branches)">Show on Map</ion-button>
+          </div>
+        </div>
+      </ion-row>
+
+    </div>
+    <div class="list-content">
+      <h4>Bank Branches</h4>
       <ion-list *ngFor="let branch of value.bank_branches; let i = index">
-        <ion-item>
+        <ion-item (click)="showMap(branch)">
           <ion-label>
             {{branch.address_name}}
-            <h2>{{branch.branch_type}}</h2>
+            <div *ngIf="branch.branch_type === 'bank'">
+              <ion-icon name="home-outline"></ion-icon>
+              <span>{{branch.branch_type}}</span>
+            </div>
+
+            <div *ngIf="branch.branch_type === 'atm'">
+              <ion-icon name="wallet-outline"></ion-icon>
+              <span>{{branch.branch_type}}</span>
+            </div>
           </ion-label>
         </ion-item>
       </ion-list>
-    </ion-card-content>
-  </ion-card>
+    </div>
 
+  </div>
 
 </ion-content>

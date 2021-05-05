@@ -2,7 +2,7 @@
   "banks": [
     {
       "id": 0,
-      "title": "Ամերիա Բանկ",
+      "title": "Ամերիաբանկ",
       "logoUrl": "/assets/banks/ameria_logo.jpeg",
       "coverUrl": "/assets/banks/cover/ameria-cover.png",
       "general_address": {
@@ -19,22 +19,28 @@
           "id": 0,
           "branch_type": "bank",
           "address_name": "Amiryan  18/3 , Yerevan",
-          "lat": "",
-          "lng": ""
+          "city": "Cambridge",
+          "state": "MA",
+          "long": -71.10858,
+          "lat": 42.35963
         },
         {
           "id": 1,
-          "branch_type": "bank",
+          "branch_type": "atm",
           "address_name": "Abovyan 6, Yerevan",
-          "lat": "",
-          "lng": ""
+          "city": "Cambridge",
+          "state": "MA",
+          "long": -71.10869,
+          "lat": 42.359103
         },
         {
           "id": 2,
           "branch_type": "bank",
           "address_name": "Komitas 38/2, Yerevan",
-          "lat": "",
-          "lng": ""
+          "city": "Boston",
+          "state": "MA",
+          "long": -71.110061,
+          "lat": 42.360686
         }
       ]
     },

@@ -25,7 +25,35 @@
 @import "~@ionic/angular/css/text-transformation.css";
 @import "~@ionic/angular/css/flex-utils.css";
 
+@import "~leaflet/dist/leaflet.css";
 
-ion-header{
+/* Set variables for all modes */
+
+:root {
+    --ion-grey-color        : #A9B4A4;
+    --ion-light-green-color : #ADC9A0;
+    --ion-middle-green-color: #8EA382;
+    --ion-dark-green-color  : #ADC9A0;
+    --ion-light-blue-color  : #5C6B54;
+    --ion-white-color       : #CEDAC6;
+}
+
+.d-flex {
+    display: flex !important;
+}
+
+ion-header {
     text-align: center;
+}
+
+ion-back-button {
+    color: var(--ion-light-blue-color) !important;
+
+}
+
+ion-toolbar {}
+
+ion-content {
+    // --background: var(--ion-white-color) !important;
+
 }
